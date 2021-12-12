@@ -40,6 +40,7 @@ nav ul {
 
 nav li {
     display: inline;
+    padding: 10px;
 }
 
 nav a {
@@ -92,4 +93,17 @@ th {
     border: 2px solid white;
     padding: 5px;
     text-align: left;
+}
+#home #nav .homeLink, #menu #nav .menuLink, #about #nav .aboutLink, #contact #nav .contactLink{
+    font-weight: bold;
+  }
+#footer{
+    margin-top: 50px;
+    width:100%;
+    background-color: white;
+    padding:10px;
+}
+#footer p, a{
+    font-size: large;
+    
 }
